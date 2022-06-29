@@ -1,0 +1,32 @@
+{
+  "name": "webpack-tailwind-typescript-starter",
+  "version": "1.0.0",
+  "description": "Webpack Tailwind TypeScript Template",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --mode=development --open",
+    "build": "webpack --config webpack-prod.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "mrag",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.1.0",
+    "css-loader": "^6.5.1",
+    "gsap": "^3.10.4",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.4.4",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.0.1",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.0.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.3",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}

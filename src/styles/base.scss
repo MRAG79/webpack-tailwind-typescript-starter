@@ -1,0 +1,11 @@
+@import 'vars';
+
+body{
+    background-color: $bg-color; 
+    overflow: hidden;
+}
+
+.remember-me{
+    position: relative;
+    top: -1px;
+}
